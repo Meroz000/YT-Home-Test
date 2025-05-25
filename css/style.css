@@ -1,0 +1,45 @@
+* {
+    background-color: rgb(36, 35, 35);
+}
+
+.main {
+    color: white;
+    padding: 20px;
+    background-color: rgb(26, 25, 25);
+    float: middle;
+    
+}
+
+.icon-list {
+    background-color: rgb(26, 25, 25);
+    padding: 50px;
+    float: left;
+    height: 500px;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    width: 177px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+#searchinput {
+    height: 20px;
+}
+
+.videoframe {
+    width: 200px;
+    background-color: rgb(26, 25, 25);  
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin: 30px auto;
+    float: middle;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
