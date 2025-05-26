@@ -22,9 +22,10 @@ body {
 
 .icon-list {
     background-color: rgb(26, 25, 25);
-    padding: 50px;
+    padding: 10px;
     float: left;
-    height: 100vh;
+    height: 920px;
+    position: relative;
 }
 
 #searchinput {
@@ -122,5 +123,5 @@ body {
     width: 40px; 
     padding: 5px; 
     border-radius: 20px;
-    margin-top: 280px;
+    margin-top: 390px;
 }
