@@ -2,12 +2,20 @@
     background-color: rgb(36, 35, 35);
 }
 
+.mainlogo {
+    background-color: rgb(26, 25, 25);
+    color: rgb(26, 25, 25);
+    height: auto;
+    width: 100px;
+}
+
 .main {
+    height: 100px;
+    position: relative;
     color: white;
-    padding: 20px;
+    padding: 5px;
     background-color: rgb(26, 25, 25);
     float: middle;
-    
 }
 
 .icon-list {
@@ -17,21 +25,31 @@
     height: 500px;
 }
 
-.searchBar {
+#searchinput {
     display: flex;
     align-items: center;
-    width: 177px;
+    width: 500px;
     margin: 20px auto;
     border: 1px solid black;
     border-radius: 20px;
     padding: 5px 10px;
+    height: 20px;
+    float: middle;
+    position: relative;
+    top: -80px;
 }
 
-#searchinput {
-    height: 20px;
+.Container {
+    display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 colunas de largura igual */
+      gap: 20px; /* Espaço entre as caixas */
+      max-width: 800px;
+      margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .videoframe {
+    color: white;
     width: 200px;
     background-color: rgb(26, 25, 25);  
     border: 1px solid black;
@@ -40,6 +58,5 @@
     float: middle;
     align-items: center;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
