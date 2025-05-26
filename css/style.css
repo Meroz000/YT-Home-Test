@@ -1,11 +1,11 @@
-* {
+body {
     background-color: rgb(36, 35, 35);
 }
 
 .mainlogo {
     background-color: rgb(26, 25, 25);
     color: rgb(26, 25, 25);
-    height: auto;
+    height: 100px;
     width: 100px;
 }
 
@@ -22,7 +22,7 @@
     background-color: rgb(26, 25, 25);
     padding: 50px;
     float: left;
-    height: 500px;
+    height: 100vh;
 }
 
 #searchinput {
@@ -39,24 +39,78 @@
     top: -80px;
 }
 
-.Container {
+.container {
     display: grid;
-      grid-template-columns: repeat(3, 1fr); /* 3 colunas de largura igual */
-      gap: 20px; /* Espaço entre as caixas */
-      max-width: 800px;
-      margin: 0 auto;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas de largura igual */
+    gap: 20px; /* Espaço entre as caixas */
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .videoframe {
     color: white;
-    width: 200px;
+    width: 250px;
     background-color: rgb(26, 25, 25);  
     border: 1px solid black;
-    padding: 10px 20px;
-    margin: 30px auto;
+    padding: 10px 20px; 
+    margin: 20px auto;
     float: middle;
-    align-items: center;
+    /* align-items: center; */
     display: grid;
-    gap: 20px;
+    border-radius: 20px;
+}
+
+.videoframe h1 {
+    margin-bottom: 4px;
+}
+
+.videoframe p {
+    margin-top: 0px;
+}
+
+.thumbnail {
+    padding: 60px;
+    border-radius: 5px;
+    background-color: rgb(21, 21, 21);
+}
+
+.searchicon img{
+    height: 40px; 
+    width: 40px; 
+    margin: 2px;
+    padding: 5px; 
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.homeicon img {
+    height: 40px; 
+    width: 40px; 
+    padding: 5px; 
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.clockicon img {
+    height: 40px; 
+    width: 40px; 
+    padding: 5px; 
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.likeicon img {
+    height: 40px; 
+    width: 40px; 
+    padding: 5px; 
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.playlisticon img {
+    height: 40px; 
+    width: 40px; 
+    padding: 5px; 
+    border-radius: 20px;
+    margin-top: 20px;
 }
