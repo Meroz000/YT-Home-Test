@@ -125,3 +125,8 @@ body {
     border-radius: 20px;
     margin-top: 390px;
 }
+
+input::placeholder {
+  color: gray;
+  font-style: italic;
+}
